@@ -5,3 +5,10 @@ body{
 li{
   font-style: italic;
 }
+
+button{
+  background-color: rgb(138, 125, 255);
+  color: rgb(255, 188, 199);
+  border-color: aliceblue;
+  
+}

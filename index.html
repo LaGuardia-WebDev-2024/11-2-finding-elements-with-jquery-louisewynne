@@ -23,9 +23,15 @@
 
     <img src="https://media.istockphoto.com/id/1209008843/photo/the-bay-horse-gallops-on-the-grass.jpg?s=612x612&w=0&k=20&c=iFVozGRChWgKih-g_aaP_uSqIKbIvTZOGkXn75dC16s=" width="200">
 
+    <button>Make it unicorns</button>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-    
+    $("button").click(function(){
+      $("li").hide().fadeIn(2000).text("All about unicorns");
+      $("#page-heading").hide().fadeIn(2000).text("All About Unicorns");
+      $(".animal").hide().fadeIn(2000).text("unicorns");
+    })
     
     </script>
   </body>
